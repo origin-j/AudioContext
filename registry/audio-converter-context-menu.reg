@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+; MP3 - to WAV
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\Convert_MP3_to_WAV]
+@="Convert: MP3 to WAV"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\Convert_MP3_to_WAV\command]
+@="\"C:\\Windows\\ffmpeg\\scripts\\mp3-to-wav.bat\" \"%1\""
+
+; MP3 - to OGG
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\Convert_MP3_to_OGG]
+@="Convert: MP3 to OGG"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\Convert_MP3_to_OGG\command]
+@="\"C:\\Windows\\ffmpeg\\scripts\\mp3-to-ogg.bat\" \"%1\""
+
+; WAV - to MP3
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\Convert_WAV_to_MP3]
+@="Convert: WAV to MP3"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\Convert_WAV_to_MP3\command]
+@="\"C:\\Windows\\ffmpeg\\scripts\\wav-to-mp3.bat\" \"%1\""
+
+; OGG - to MP3
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\Convert_OGG_to_MP3]
+@="Convert: OGG to MP3"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\Convert_OGG_to_MP3\command]
+@="\"C:\\Windows\\ffmpeg\\scripts\\ogg-to-mp3.bat\" \"%1\""
