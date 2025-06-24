@@ -7,3 +7,5 @@ It is a little addon to make file converting a little easier when in the explore
 **Just download the file from the releases** and open the instructions folder to read the html document :D
 
 # thank you! :3 
+
+### BTW: for lite version press the releases button to show all
