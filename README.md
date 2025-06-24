@@ -1,7 +1,7 @@
-# Hiii :3
+# Hi :3
 
-Welcome! Thanks for stopping by.  
-All you have to do is download the ZIP file and you're good to go!
+Thanks for using my program! :D
+All you have to do is download the ZIP file!
 
 > 💾 Click "audiocontext-1.0.0.zip" and press "Download Raw".
 
